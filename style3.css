@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+
+ol{
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.4;
+}
+
+#header{
+    margin-bottom: 15px;
+    background: #c55f4e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#main{
+    float: left;
+    width: 69%;
+}
+#sidebar {
+    float: right;
+    width: 29%;
+}
+.clr {
+    clear: both;
+}
+#footer {
+    background: #c55f4e;;
+    color: #fff;
+    padding: 10px;
+}
+.text-center {
+    display: block;
+    text-align: center;
+}
+.card{
+    border: 1px solid rgb(255, 235, 235);
+    background: #f0d0c1;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.card h2{
+    font-size: 30px;
+}
+.acti1{
+    display: grid;
+    grid-template: 
+    'header sidebar' 3fr
+    / 3fr 3fr;
+}
+#ac{
+    color: rgb(150, 80, 80);
+    font-size: 20px;
+}
+#ac h2{
+    color: rgb(255, 115, 73);
+}
+.acimg{
+    grid-area: header;
+    margin-top: 0px;
+    margin-left: 70px;
+}
+.nameimg{
+    grid-area: sidebar;
+    font-size: 20px;
+    color: rgb(187, 65, 65);
+    margin-top: -10px;
+    margin-left: -350px;
+}
+.acti2{
+    display: grid;
+    grid-template: 
+    'header2 sidebar2' 3fr
+    / 3fr 3fr;
+}
+.acimg2{
+    grid-area: header2;
+    margin-top: 0px;
+    margin-left: 90px;
+}
+.nameimg2{
+    grid-area: sidebar2;
+    font-size: 20px;
+    color: rgb(187, 65, 65);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.acti3{
+    display: grid;
+    grid-template: 
+    'header3 sidebar3' 3fr
+    / 3fr 3fr;
+}
+.acimg3{
+    grid-area: header3;
+    margin-top: 0px;
+    margin-left: 90px;
+}
+.nameimg3{
+    grid-area: sidebar3;
+    font-size: 20px;
+    color: rgb(187, 65, 65);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.acti5{
+    display: grid;
+    grid-template: 
+    'header5 sidebar5' 3fr
+    / 3fr 3fr;
+}
+.acimg5{
+    grid-area: header5;
+    margin-top: 0px;
+    margin-left: 90px;
+}
+.nameimg5{
+    grid-area: sidebar5;
+    font-size: 20px;
+    color: rgb(187, 65, 65);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.acti6{
+    display: grid;
+    grid-template: 
+    'header6 sidebar6' 3fr
+    / 3fr 3fr;
+}
+.acimg6{
+    grid-area: header6;
+    margin-top: 0px;
+    margin-left: 90px;
+}
+.nameimg6{
+    grid-area: sidebar6;
+    font-size: 20px;
+    color: rgb(187, 65, 65);
+    margin-top: -10px;
+    margin-left: 100px;
+}
